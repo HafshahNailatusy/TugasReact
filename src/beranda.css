@@ -1,0 +1,31 @@
+/* beranda.css */
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #9face6); /* Gradient background */
+}
+
+.glass-card {
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15); /* Glass background color with reduced opacity */
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Glass blur effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+/* Optional: Add some hover effect for a more interactive feel */
+.glass-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
